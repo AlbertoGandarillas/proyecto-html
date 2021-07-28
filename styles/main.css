@@ -50,6 +50,18 @@ ul.nav-links li a {
 .main-section {
     display: flex;
 }
+.columna-formulario {
+    flex: 50%;
+}
+.columna-ubicanos {
+    flex:50%;
+
+}
+.section-formulario {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+}
 figure {
     margin: 0;
     padding: 0;
@@ -84,6 +96,27 @@ article {
     width: 31%;
     display: inline-block;
     padding: 10px;
+}
+input, textarea {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 3px; 
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+input:focus:invalid, textarea:focus:invalid {
+    border: 1px solid #ff0000;
+}
+input:valid, textarea:valid {
+    border: 1px solid rgb(1, 112, 1);
+}
+button {
+    background-color: #CC2323;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
 }
 .copyright, .desarrollado {
     color: #fff;
