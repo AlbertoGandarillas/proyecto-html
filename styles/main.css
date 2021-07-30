@@ -78,7 +78,6 @@ aside {
 }
 .categorias {
     background-color: #CC2323;
-    width: 90%;
     padding: 10px;
 }
 .categorias h2 {
@@ -94,8 +93,12 @@ ul.aside-links li a {
     color: #fff;
     text-decoration: none;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
 article {
-    width: 31%;
     display: inline-block;
     padding: 10px;
 }
