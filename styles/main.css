@@ -8,12 +8,13 @@ header {
 }
 header, footer {
     background-color: #ff0000;
+    display: flex;
+    justify-content: space-between;
 }
 article, nav {
     background-color: #c4c4c4;
 }
 .logo {
-    float: left;
     padding: 10px;
     display:block;
     color: #fff;
@@ -22,18 +23,19 @@ article, nav {
 }
 nav {
     width: 470px;
-    float: right;
     margin: 10px;
-    padding: 10px;
 }
-ul.nav-links, ul.aside-links {
+ul.nav-links{
     list-style-type: none;
-    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+ul.aside-links {
+    list-style-type: none;
 }
 ul.nav-links li {
-    float: left;
     font-weight: 400;
-    padding: 0 5px;
 }
 ul.nav-links li a {
     font-size: 20px;
